@@ -1,6 +1,6 @@
 # Person-Detection-Emailing-System
 
-AI Model Download Commands
+AI Model Reference Commands
 
 $ git clone https://github.com/dusty-nv/jetson-inference
 $ cd jetson-inference
