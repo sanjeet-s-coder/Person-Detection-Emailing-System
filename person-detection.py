@@ -31,7 +31,7 @@ def send_email(image_path):
     
     # Connect to Gmail and send the message
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login("sanjeetsuthrave@gmail.com", "grnqnkeialshmafc")
+        smtp.login("sanjeetsuthrave@gmail.com", "myapppassword")
         smtp.send_message(msg)
         print("Email sent successfully with attached image.")
 
